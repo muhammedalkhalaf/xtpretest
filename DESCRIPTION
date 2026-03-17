@@ -1,0 +1,30 @@
+Package: xtpretest
+Type: Package
+Title: Comprehensive Panel Data Pre-Testing Suite
+Version: 1.0.0
+Authors@R: person("Muhammad", "Alkhalaf", email = "muhammedalkhalaf@gmail.com",
+    role = c("aut", "cre", "cph"),
+    comment = c(ORCID = "0009-0002-2677-9246"))
+Description: Provides a comprehensive suite of pre-tests for panel data
+    analysis. Implements Hsiao (2014) homogeneity tests (F1, F2, F3) for
+    slope and intercept equality, heteroscedasticity-robust variants,
+    Swamy (1970) parameter heterogeneity test, and Pesaran (2004) built-in
+    cross-sectional dependence test. Produces formatted summary tables,
+    variance decomposition (between vs within), coefficient heterogeneity
+    statistics, and a model recommendation based on the sequential testing
+    strategy. Hsiao, C. (2014) <doi:10.1017/CBO9781139839327>. Swamy,
+    P. A. V. B. (1970) <doi:10.2307/1909405>. Pesaran, M. H. (2004)
+    <doi:10.2139/ssrn.572504>.
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Depends: R (>= 3.5.0)
+Imports:
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    plm
+Config/testthat/edition: 3
+URL: https://github.com/muhammedalkhalaf/xtpretest
+BugReports: https://github.com/muhammedalkhalaf/xtpretest/issues
